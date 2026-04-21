@@ -156,7 +156,7 @@ function App() {
             </a>
 
             <a
-              href="https://www.linkedin.com/nolan-dela-rosa"
+              href="https://www.linkedin.com/in/nolan-dela-rosa/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline px-3 border-r border-black-300"
