@@ -22,21 +22,27 @@ function App() {
 
           <div className="flex flex-wrap gap-4">
             <a
-              href="#"
+              href="/NolanDelaRosa_SWE_Backend.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-lg bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800 transition"
             >
               View Resume
             </a>
 
             <a
-              href="#"
+              href="https://github.com/26nm"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-lg border border-gray-300 px-5 py-3 text-sm font-medium text-gray-900 hover:bg-gray-100 transition"
             >
               GitHub
             </a>
 
             <a
-              href="#"
+              href="https://www.linkedin.com/in/nolan-dela-rosa/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-lg border border-gray-300 px-5 py-3 text-sm font-medium text-gray-900 hover:bg-gray-100 transition"
             >
               LinkedIn
@@ -44,96 +50,80 @@ function App() {
           </div>
         </section>
 
-        {/* About */}
-        <section className="mb-16">
-          <h2 className="text-2xl font-semibold mb-4">About</h2>
-          <p className="text-gray-700">
-            I'm a Computer Science grad from the University of Washington with
-            experience in React, Firebase, and backend development. I enjoy
-            building practical tools that solve real-world problems.
-          </p>
-        </section>
-
         {/* Projects */}
         <section className="mb-16">
           <h2 className="text-2xl font semi-bold mb-6">Projects</h2>
 
-          <div className="grid gap-6 md:grid-cols-2">
-            <div className="border rounded-xl p-6 shadow-sm">
-              <h3 className="text-xl font-semibold mb-2">CareerPath</h3>
-              <p className="text-gray-600">
+          <div className="grid gap-6 md:grid-cols-2 items-start">
+            <div className="border border-black-200 rounded-xl p-5 shadow-sm transition duration-200 ease-out hover:shadow-md hover:-translate-y-1">
+              <div className="flex items-center gap-3 mb-1">
+                <img
+                  src="/careerpath.svg"
+                  alt="CareerPath"
+                  className="h-10 w-10 object-contain"
+                />
+              </div>
+              <h3 className="text-2xl font-semibold mb-1">CareerPath</h3>
+              <p className="text-lg text-gray-600 text-base leading-relaxed mb-3">
                 A full-stack job tracking app designed to help users organize
                 job applications, schedule interviews, and analyze resumes in
                 one place.
               </p>
 
-              <div className="mb-4">
-                <p className="text-sm font-medium text-gray-900"> Tech Stack</p>
-                <p className="text-sm text-gray-600">
-                  React, Firebase, JavaScript, CSS
-                </p>
-              </div>
-
-              <ul className="text-sm text-gray-700 space-y-2 mb-4">
-                <li>
-                  • Built features for job tracking, interview scheduling, and
-                  resume analysis.
-                </li>
-
-                <li>
-                  • Designed the UI and structured the app around a user-focused
-                  workflow.
-                </li>
-
-                <li>
-                  • Integrated Firebase for storing user and application data.
-                </li>
-              </ul>
-
-              <div className="flex gap-4 text-sm font-medium">
-                <a href="#" className="text-blue-600 hover:underline">
+              <div className="flex gap-5 text-sm font-medium">
+                <a
+                  href="https://github.com/26nm/careerpath"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline hover:text-blue-700 transition"
+                >
                   GitHub
                 </a>
-                <a href="#" className="text-blue-600 hover:underline">
+                <a
+                  href="https://careerpath-cad61.web.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline hover:text-blue-700 transition"
+                >
                   Live Demo
                 </a>
               </div>
             </div>
 
-            <div className="border rounded-xl p-6 shadow-sm">
-              <h3 className="text-xl font-semibold mb-2">
+            <div className="border border-black-200 rounded-xl p-5 shadow-sm transition duration-200 ease-out hover:shadow-md hover:-translate-y-1">
+              {/* Logo */}
+              <div className="flex items-center gap-3 mb-1">
+                <img
+                  src="/Pisayian.svg"
+                  alt="Pisayian"
+                  className="h-10 w-10 object-contain"
+                />
+              </div>
+              <h3 className="text-2xl font-semibold mb-1">
                 Pisayian Data Cleaner
               </h3>
-              <p className="text-gray-600">
+              <p className="text-lg text-gray-600 leading-relaxed mb-3">
                 A hackathon-winning backend tool that helps clean, normalize,
                 and process uploaded datasets more efficiently.
               </p>
 
-              <div className="mb-4">
-                <p className="text-sm font-medium text-gray-900">Tech Stack</p>
-                <p className="text-sm text-gray-600">
-                  Node.js, Express.js, Multer, PapaParse
-                </p>
-              </div>
-
-              <ul className="text-sm text-gray-700 space-y-2 mb-4">
-                <li>
-                  • Helped build backend logic for file handling and data
-                  processing.
-                </li>
-                <li>
-                  • Worked on a team project developed during Kapwa Codefest
-                  2025.
-                </li>
-                <li>
-                  • Contributed to a tool intended to support real
-                  organizational data workflows.
-                </li>
-              </ul>
-
-              <div className="flex gap-4 text-sm font-medium">
-                <a href="#" className="text-blue-600 hover:underline">
+              <div className="flex gap-5 text-sm font-medium">
+                <a
+                  href="https://github.com/ravello/pisayian-hackathon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline"
+                >
                   GitHub
+                </a>
+
+                <a
+                  href="https://csv-umber.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline"
+                >
+                  Live Demo
                 </a>
               </div>
             </div>
@@ -141,9 +131,39 @@ function App() {
         </section>
 
         {/* Contact */}
-        <section>
+        <section className="mt-24">
           <h2 className="text-2xl font-semibold mb-4">Contact</h2>
-          <p className="text-gray-700">GitHub | LinkedIn | Email</p>
+
+          <p className="text-gray-700 mb-4">
+            Feel free to reach out or connect with me!
+          </p>
+
+          <div className="flex items-center text-sm">
+            <a
+              href="mailto:ndelarosa@gmail.com"
+              className="text-blue-600 hover:underline pr-3 border-r border-black-300"
+            >
+              Email
+            </a>
+
+            <a
+              href="https://github.com/26nm"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline px-3 border-r border-black-300"
+            >
+              GitHub
+            </a>
+
+            <a
+              href="https://www.linkedin.com/nolan-dela-rosa"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline px-3 border-r border-black-300"
+            >
+              LinkedIn
+            </a>
+          </div>
         </section>
       </div>
     </main>
