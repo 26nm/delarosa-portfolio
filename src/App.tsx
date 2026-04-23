@@ -1,3 +1,25 @@
+/*
+  Main Portfolio Application
+
+  This component renders a simple, clean, and minimal personal portfolio site.
+  The layout is intentionally structured to prioritize clarity and fast comprehension.
+
+  Sections:
+  - Hero: Introduction, role, and primary actions (Resume, GitHub, LinkedIn)
+  - Projects: Highlighted work with direct access to source code and live demos
+  - Contact: Quick links for communication and networking
+
+  Design Philosophy:
+  - Minimal UI with clear hierarchy
+  - Emphasis on readability and usability
+  - Subtle interactivity (hover effects) without visual noise
+
+  Goal:
+  Present projects and experience in a way that is immediately understandable
+  to both technical and non-technical viewers.
+
+  By: Nolan Dela Rosa
+*/
 function App() {
   return (
     <main className="min-h-screen bg-slate-50 text-gray900">
