@@ -4,49 +4,64 @@ function App() {
       <div className="max-w-5xl mx-auto px-6 py-16">
         {/* Hero */}
         <section className="mb-20 pt-8">
-          <p className="text-sm font-medium text-blue-600 mb-3">
-            Full-Stack Developer
-          </p>
+          <div className="flex flex-col md:flex-row items-center justify-between gap-10">
+            {/* LEFT SIDE (text) */}
+            <div className="max-w-2xl">
+              <p className="text-sm font-medium text-blue-600 mb-3">
+                Full-Stack Developer
+              </p>
 
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-6">
-            Nolan Dela Rosa
-          </h1>
+              <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-6">
+                Nolan Dela Rosa
+              </h1>
 
-          <p className="max-w-2xl text-lg text-gray-600 leading-8 mb-8">
-            Hello there! I'm a Computer Science graduate from the University of
-            Washington who enjoys building thoughtful, user-focused applications
-            with modern web technologies. My work includes full-stack projects
-            in React, Firebase, Node.js, and Java, with a growing focus on
-            creating practical tools that solve real problems.
-          </p>
+              <p className="text-lg text-gray-600 leading-8 mb-8">
+                Hello there! I'm a Computer Science graduate from the University
+                of Washington who enjoys building thoughtful, user-focused
+                applications with modern web technologies. My work includes
+                full-stack projects in React, Firebase, Node.js, and Java, with
+                a growing focus on creating practical tools that solve real
+                problems.
+              </p>
 
-          <div className="flex flex-wrap gap-4">
-            <a
-              href="/NolanDelaRosa_SWE_Backend.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-lg bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800 transition"
-            >
-              View Resume
-            </a>
+              <div className="flex flex-wrap gap-4">
+                <a
+                  href="/NolanDelaRosa_SWE_Backend.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-lg bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800 transition"
+                >
+                  View Resume
+                </a>
 
-            <a
-              href="https://github.com/26nm"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-lg border border-gray-300 px-5 py-3 text-sm font-medium text-gray-900 hover:bg-gray-100 transition"
-            >
-              GitHub
-            </a>
+                <a
+                  href="https://github.com/26nm"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-lg border border-gray-300 px-5 py-3 text-sm font-medium text-gray-900 hover:bg-gray-100 transition"
+                >
+                  GitHub
+                </a>
 
-            <a
-              href="https://www.linkedin.com/in/nolan-dela-rosa/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-lg border border-gray-300 px-5 py-3 text-sm font-medium text-gray-900 hover:bg-gray-100 transition"
-            >
-              LinkedIn
-            </a>
+                <a
+                  href="https://www.linkedin.com/in/nolan-dela-rosa/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-lg border border-gray-300 px-5 py-3 text-sm font-medium text-gray-900 hover:bg-gray-100 transition"
+                >
+                  LinkedIn
+                </a>
+              </div>
+            </div>
+
+            {/* RIGHT SIDE (photo) */}
+            <div className="flex-shrink-0">
+              <img
+                src="/website_photo.jpg"
+                alt="Nolan Dela Rosa"
+                className="w-40 h-40 md:w-52 md:h-52 rounded-full object-cover shadow-md"
+              />
+            </div>
           </div>
         </section>
 
