@@ -59,7 +59,7 @@ function App() {
               <img
                 src="/website_photo.jpg"
                 alt="Nolan Dela Rosa"
-                className="w-40 h-40 md:w-52 md:h-52 rounded-full object-cover shadow-md"
+                className="w-56 h-56 md:w-52 md:h-52 rounded-full object-cover shadow-md"
               />
             </div>
           </div>
