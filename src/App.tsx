@@ -155,7 +155,7 @@ function App() {
                 </a>
 
                 <a
-                  href="https://pisayian-datacleaner.vercel.app/"
+                  href="https://pisayian.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:underline"
