@@ -146,7 +146,7 @@ function App() {
 
               <div className="flex gap-5 text-sm font-medium">
                 <a
-                  href="https://github.com/ravello/pisayian-hackathon"
+                  href="https://github.com/26nm/pisayian-hackathon"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:underline"
@@ -155,7 +155,7 @@ function App() {
                 </a>
 
                 <a
-                  href="https://csv-umber.vercel.app/"
+                  href="https://pisayian-datacleaner.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:underline"
