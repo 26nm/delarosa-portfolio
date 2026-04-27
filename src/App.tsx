@@ -20,6 +20,9 @@
 
   By: Nolan Dela Rosa
 */
+import { Mail } from "lucide-react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+
 function App() {
   return (
     <main className="min-h-screen bg-slate-50 text-gray900">
@@ -179,8 +182,9 @@ function App() {
             <a
               href="mailto:ndelarosa@gmail.com"
               className="text-blue-600 hover:underline pr-3 border-r border-black-300"
+              title="Email"
             >
-              Email
+              <Mail className="w-5 h-5" />
             </a>
 
             <a
@@ -188,8 +192,9 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline px-3 border-r border-black-300"
+              title="GitHub"
             >
-              GitHub
+              <FaGithub className="w-5 h-5" />
             </a>
 
             <a
@@ -197,8 +202,9 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline px-3 border-r border-black-300"
+              title="LinkedIn"
             >
-              LinkedIn
+              <FaLinkedin className="w-5 h-5" />
             </a>
           </div>
         </section>
