@@ -46,7 +46,7 @@ function App() {
                 problems.
               </p>
 
-              <div className="flex flex-wrap gap-4">
+              <div className="flex flex-wrap gap-4 transition duration-200 ease-out hover:shadow-md hover:-translate-y-1">
                 <a
                   href="/NolanDelaRosa_SWE_Backend.pdf"
                   target="_blank"
