@@ -46,12 +46,12 @@ function App() {
                 problems.
               </p>
 
-              <div className="flex flex-wrap gap-4 transition duration-200 ease-out hover:shadow-md hover:-translate-y-1">
+              <div className="flex flex-wrap gap-4">
                 <a
                   href="/NolanDelaRosa_SWE_Backend.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded-lg bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800 transition"
+                  className="rounded-lg bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800 transition-all duration-200 ease-out hover:shadow-md hover:-translate-y-1"
                 >
                   View Resume
                 </a>
@@ -60,7 +60,7 @@ function App() {
                   href="https://github.com/26nm"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded-lg border border-gray-300 px-5 py-3 text-sm font-medium text-gray-900 hover:bg-gray-100 transition"
+                  className="rounded-lg border border-gray-300 px-5 py-3 text-sm font-medium text-gray-900 hover:bg-gray-100 transition-all duration-200 ease-out hover:shadow-md hover:-translate-y-1"
                 >
                   GitHub
                 </a>
@@ -69,7 +69,7 @@ function App() {
                   href="https://www.linkedin.com/in/nolan-dela-rosa/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded-lg border border-gray-300 px-5 py-3 text-sm font-medium text-gray-900 hover:bg-gray-100 transition"
+                  className="rounded-lg border border-gray-300 px-5 py-3 text-sm font-medium text-gray-900 hover:bg-gray-100 transition-all duration-200 ease-out hover:shadow-md hover:-translate-y-1"
                 >
                   LinkedIn
                 </a>
