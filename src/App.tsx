@@ -33,7 +33,7 @@ function App() {
             {/* LEFT SIDE (text) */}
             <div className="max-w-2xl">
               <p className="text-sm font-medium text-blue-600 mb-3">
-                Full-Stack Developer
+                Full-Stack Developer | Incoming M.S. CS @ SeattleU
               </p>
 
               <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-6">
@@ -42,7 +42,8 @@ function App() {
 
               <p className="text-lg text-gray-600 leading-8 mb-8">
                 Hello there! I'm a Computer Science graduate from the University
-                of Washington who enjoys building thoughtful, user-focused
+                of Washington and an incoming M.S. Computer Science student at
+                Seattle University. I enjoy building thoughtful, user-focused
                 applications with modern web technologies. My work includes
                 full-stack projects in React, Firebase, Node.js, and Java, with
                 a growing focus on creating practical tools that solve real
@@ -51,7 +52,7 @@ function App() {
 
               <div className="flex flex-wrap gap-4">
                 <a
-                  href="/NolanDelaRosa_SWE_NewGrad.pdf"
+                  href="/NolanDelaRosa_Masters.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-lg bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800 transition-all duration-200 ease-out hover:shadow-md hover:-translate-y-1"
