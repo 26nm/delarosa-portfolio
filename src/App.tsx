@@ -33,7 +33,7 @@ function App() {
             {/* LEFT SIDE (text) */}
             <div className="max-w-2xl">
               <p className="text-sm font-medium text-blue-600 mb-3">
-                Full-Stack Developer | Incoming M.S. CS @ SeattleU
+                Full-Stack Developer | M.S. CS @ SeattleU
               </p>
 
               <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-6">
@@ -42,8 +42,8 @@ function App() {
 
               <p className="text-lg text-gray-600 leading-8 mb-8">
                 Hello there! I'm a Computer Science graduate from the University
-                of Washington and an incoming M.S. Computer Science student at
-                Seattle University. I enjoy building thoughtful, user-focused
+                of Washington and a M.S. Computer Science student at Seattle
+                University. I enjoy building thoughtful, user-focused
                 applications with modern web technologies. My work includes
                 full-stack projects in React, Firebase, Node.js, and Java, with
                 a growing focus on creating practical tools that solve real
